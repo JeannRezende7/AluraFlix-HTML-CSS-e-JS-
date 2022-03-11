@@ -22,4 +22,9 @@ for (var i = 0; i < listaFilmes.length; i++)  {
 document.write("<p>" + listaFilmes[i] + "</p>");
 }
 ``` 
-
+# .endsWith
+Posso usar o comando ```.endsWith```para verifiar se a informação termina com tal coisa,por exemplo:
+```
+if (filmeImput.endsWith(".jpg")) {
+``` 
+Ele vai verificar se o filmeImput termina com ".jpg"
