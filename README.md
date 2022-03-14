@@ -38,3 +38,17 @@ Basta colocar entre os () na função de destino,por exemplo:
   function listarFilmesNaTela(filmeImput) {}``
   Nesse exemplo foi passado a variavel filme imput que estava na função adicionarFilme para  afunção listarFilmesNaTela
   
+  # CSS Anotar
+  
+  ``
+  margin: 5px;
+  max-height: 250px;
+  height: 315px;
+  width: 185px;
+  border: 1px solid #dbdbdb;
+  font-family: "Verdana";
+  color: #ff0000;
+  margin: 0 0 5px;
+  font-weight: bold;
+  ``
+  
