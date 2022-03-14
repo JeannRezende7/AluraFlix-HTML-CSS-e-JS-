@@ -14,8 +14,10 @@ body {
 }
 
 .page-title {
-  color: #ffffff;
+  font-family: "Verdana";
+  color: #ff0000;
   margin: 0 0 5px;
+  font-weight: bold;
 }
 
 .page-subtitle {
@@ -25,6 +27,7 @@ body {
 
 .page-logo {
   width: 200px;
+  border: 2px solid #dbdbdb;
 }
 
 .alura-logo {
@@ -35,7 +38,7 @@ body {
 }
 
 #listaFilmes img {
-  margin: 10px;
+  margin: 5px;
   max-height: 250px;
 }
 
@@ -64,4 +67,9 @@ body {
 
 .form-wrapper button:hover {
   opacity: 0.8;
+}
+
+.capas > img {
+  height: 315px;
+  width: 180px;
 }
