@@ -28,3 +28,13 @@ Posso usar o comando ```.endsWith```para verifiar se a informação termina com 
 if (filmeImput.endsWith(".jpg")) {
 ``` 
 Ele vai verificar se o filmeImput termina com ".jpg"
+
+# Passar uma variavel de uma função para outra
+Basta colocar entre os () na função de destino,por exemplo:
+``function adicionarFilme() {
+  var filmeImput = document.getElementById("filme").value;
+  }
+  
+  function listarFilmesNaTela(filmeImput) {}``
+  Nesse exemplo foi passado a variavel filme imput que estava na função adicionarFilme para  afunção listarFilmesNaTela
+  
